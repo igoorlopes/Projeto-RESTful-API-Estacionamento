@@ -1,0 +1,26 @@
+{
+  "name": "rest-api-estacionamento",
+  "version": "1.0.0",
+  "description": "Criação de uma RESTful API, utilizando o método Express do NodeJS, para um Estacionamento, onde seja possivel manter um banco de dados (como leitura completa de registros, consulta de  registro pela chave, inserçao de novos registros, atualização de um registro pré-existente e exclusão de dados).",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "dev": "nodemon server.js",
+    "prod": "node server.js"
+  },
+  "keywords": [
+    "node",
+    "api",
+    "estacionamento"
+  ],
+  "author": "Igor Souza Lopes",
+  "license": "ISC",
+  "dependencies": {
+    "body-parser": "^1.19.0",
+    "express": "^4.17.1",
+    "fast-csv": "^4.3.6"
+  },
+  "devDependencies": {
+    "nodemon": "^2.0.7"
+  }
+}
